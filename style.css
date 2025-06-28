@@ -1,0 +1,32 @@
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+body.bg-overlay {
+  background-image: url('https://media.istockphoto.com/id/1492645918/photo/survey-form-concept-businessman-using-laptops-do-online-checklist-surveys-questionnaire-with.jpg?s=612x612&w=0&k=20&c=lqbzWDBLxqRe99kOz2GwfWDRzkVduf2BvUzn1NBGh7Q=');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+@media (max-width: 768px) {
+  .input-group > input,
+  .input-group > button {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+
+::placeholder {
+  color: #aaa;
+}
